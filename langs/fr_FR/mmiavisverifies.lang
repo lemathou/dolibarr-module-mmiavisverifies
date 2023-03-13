@@ -1,0 +1,66 @@
+# Copyright (C) 2022 Mathieu Moulin <mathieu@iprospective.fr>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleMMIAvisVerifiesName'
+ModuleMMIAvisVerifiesName = Connecteur Avis Vérifiés
+# Module description 'ModuleMMIAvisVerifiesDesc'
+ModuleMMIAvisVerifiesDesc = Envoi des demandes d'avis vers Avis Vérifiés
+
+#
+# Admin page
+#
+MMIAvisVerifiesSetup = MMIAvisVerifies setup
+Settings = Settings
+MMIAvisVerifiesSetupPage = MMIAvisVerifies setup page
+
+MMIAVISVERIFIES_FILTER_O_PRESTA = Filtrage : masquer les commandes issues de Prestashop
+MMIAVISVERIFIES_FILTER_P_PRESTA_ACTIF = Filtrage : masquer les produit inactifs sur Prestashop
+MMIAVISVERIFIES_FILTER_C_ARTISAN = Filtrage : masquer les commandes des artisans
+MMIAVISVERIFIES_DELAI = Délai d'envoi des demandes d'avis après livraison de la commande
+MMIAVISVERIFIES_BEGIN_DATE = Date de début de prise en charge
+MMIAVISVERIFIES_FTP_PROD_TEST = FTP activé / en Prod (sinon Test)
+MMIAVISVERIFIES_FTP_PROD_HOSTNAME = FTP Prod hostname
+MMIAVISVERIFIES_FTP_PROD_USERNAME = FTP Prod username
+MMIAVISVERIFIES_FTP_PROD_PASSWORD = FTP Prod password
+MMIAVISVERIFIES_FTP_TEST_HOSTNAME = FTP Test hostname
+MMIAVISVERIFIES_FTP_TEST_USERNAME = FTP Test username
+MMIAVISVERIFIES_FTP_TEST_PASSWORD = FTP Test password
+
+
+#
+# About page
+#
+About = About
+MMIAvisVerifiesAbout = About MMIAvisVerifies
+MMIAvisVerifiesAboutPage = MMIAvisVerifies about page
+
+#
+# Sample page
+#
+MyPageName = My page name
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = My widget description
+
+Extrafield_netreviews_sent = Envoyé vers Avis Vérifiés
+Extrafield_netreviews_bl = Litige commande
+Extrafield_artisan = Artisan/Installateur (pas client direct)

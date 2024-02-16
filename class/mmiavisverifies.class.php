@@ -92,7 +92,7 @@ public static function send()
             WHERE op.fk_commande='.$o->rowid.'
 				AND p.rowid NOT IN ('.$fk_product_exclude.')
 				AND p.ref LIKE "PI-%"
-				'.($p_actif ?' AND p2.p_active=1 AND p2.sync=1' :'').'
+				'.($p_actif ?' AND (p2.p_active=1 AND p2.p_decli_disabled IS NULL) AND p2.sync=1' :'').'
 				AND p.label NOT LIKE "Remise%"
 				AND p.label NOT LIKE "%livraison%"
 				AND p.label NOT LIKE "%emballage%"

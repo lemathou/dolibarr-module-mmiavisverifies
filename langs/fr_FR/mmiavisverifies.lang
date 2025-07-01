@@ -26,7 +26,6 @@ ModuleMMIAvisVerifiesDesc = Envoi des demandes d'avis vers Avis Vérifiés
 # Admin page
 #
 MMIAvisVerifiesSetup = MMIAvisVerifies setup
-Settings = Settings
 MMIAvisVerifiesSetupPage = MMIAvisVerifies setup page
 
 MMIAVISVERIFIES_FILTER_O_PRESTA = Filtrage : masquer les commandes issues de Prestashop
@@ -46,7 +45,6 @@ MMIAVISVERIFIES_FTP_TEST_PASSWORD = FTP Test password
 #
 # About page
 #
-About = About
 MMIAvisVerifiesAbout = About MMIAvisVerifies
 MMIAvisVerifiesAboutPage = MMIAvisVerifies about page
 
